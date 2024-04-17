@@ -1,0 +1,41 @@
+{% extends 'second_base.html' %}
+{% block head %}
+{% endblock %}
+{% block body %}
+<div class="container mx-auto px-4 pt-24">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
+        {% for info in all_info %}
+            {% if info|length == 5 %}
+                {% set title, catalog, cites, url, categories = info %}
+                <div class="p-4 border rounded-lg shadow-lg bg-white">
+                    <div class="p-2 border-b">
+                        <h1 class="text-xl font-bold pb-2">Title: {{ title }}</h1>
+                    </div>
+                    <div class="p-2 border-b">
+                        <h1 class="text-xl font-bold pb-2">Catalog: {{ catalog }}</h1>
+                    </div>
+                    <div class="p-2 border-b">
+                        <h1 class="text-xl font-bold pb-2">Cites: {{ cites }}</h1>
+                    </div>
+                    <div class="p-2 border-b">
+                        <h1 class="text-xl font-bold pb-2">Url: <a href="https://www.scimagojr.com/{{ url }}" class="text-blue-500 hover:underline">Link</a></h1>
+                    </div>
+                    <div class="p-2">
+                        <h1 class="text-xl font-bold pb-2">Categories: {{ categories }}</h1>
+                    </div>
+                </div>
+            {% elif info|length == 2 %}
+                {% set publisher, issn = info %}
+                <div class="p-4 border rounded-lg shadow-lg bg-white">
+                    <div class="p-2 border-b">
+                        <h1 class="text-xl font-bold pb-2">Publisher: {{ publisher }}</h1>
+                    </div>
+                    <div class="p-2">
+                        <h1 class="text-xl font-bold pb-2">ISSN: {{ issn }}</h1>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,51 @@
+titulo,catalogos,cites,cuartil,sjr,url,categories
+Ca-A Cancer Journal for Clinicians ,{'journal'},35427,Q1,106.094,journalsearch.php?q=28773&tip=sid&clean=0,"['Hematology', 'Oncology']"
+Foundations and Trends in Machine Learning ,{'journal'},955,Q1,37.044,journalsearch.php?q=19300156903&tip=sid&clean=0,"['Artificial Intelligence', 'Human-Computer Interaction', 'Software']"
+Nature Reviews Molecular Cell Biology ,{'journal'},13599,Q1,35.91,journalsearch.php?q=20315&tip=sid&clean=0,"['Cell Biology', 'Molecular Biology']"
+Quarterly Journal of Economics ,{'journal'},2240,Q1,30.448,journalsearch.php?q=29431&tip=sid&clean=0,['Economics and Econometrics']
+Nature Reviews Cancer ,{'journal'},10951,Q1,26.837,journalsearch.php?q=12464&tip=sid&clean=0,"['Cancer Research', 'Oncology']"
+Cell ,{'journal'},53447,Q1,24.342,journalsearch.php?q=18434&tip=sid&clean=0,"['Biochemistry, Genetics and Molecular Biology (miscellaneous']"
+Nature Reviews Drug Discovery ,{'journal'},13091,Q1,22.399,journalsearch.php?q=20425&tip=sid&clean=0,"['Drug Discovery', 'Medicine (miscellaneous)', 'Pharmacology']"
+American Economic Review ,{'journal'},4811,Q1,22.344,journalsearch.php?q=22697&tip=sid&clean=0,['Economics and Econometrics']
+Nature Reviews Materials ,{'journal'},13775,Q1,21.836,journalsearch.php?q=21100812243&tip=sid&clean=0,"['Biomaterials', 'Electronic, Optical and Magnetic Materials', 'Energy (miscellaneous)', 'Materials Chemistry', 'Surfaces, Coatings and Films']"
+Nature Reviews Clinical Oncology ,{'journal'},10807,Q1,21.048,journalsearch.php?q=17700156734&tip=sid&clean=0,['Oncology']
+New England Journal of Medicine ,{'journal'},107246,Q1,20.544,journalsearch.php?q=15847&tip=sid&clean=0,['Medicine (miscellaneous']
+Journal of Finance ,{'journal'},1938,Q1,19.139,journalsearch.php?q=17500&tip=sid&clean=0,"['Accounting', 'Economics and Econometrics', 'Finance']"
+Nature Medicine ,{'journal'},36243,Q1,19.045,journalsearch.php?q=15819&tip=sid&clean=0,"['Biochemistry, Genetics and Molecular Biology (miscellaneous)', 'Medicine (miscellaneous']"
+Current Protocols in Bioinformatics ,{'journal'},963,Q1,18.663,journalsearch.php?q=11600154092&tip=sid&clean=0,"['Biochemistry', 'Medicine (miscellaneous)', 'Structural Biology']"
+MMWR supplements ,{'journal'},802,Q1,18.587,journalsearch.php?q=21100466539&tip=sid&clean=0,['Medicine (miscellaneous']
+Journal of Political Economy ,{'journal'},2531,Q1,18.53,journalsearch.php?q=24404&tip=sid&clean=0,['Economics and Econometrics']
+Nature ,{'journal'},160102,Q1,18.509,journalsearch.php?q=21206&tip=sid&clean=0,['Multidisciplinary']
+Nature Biotechnology ,{'journal'},17008,Q1,18.117,journalsearch.php?q=16115&tip=sid&clean=0,"['Applied Microbiology and Biotechnology', 'Bioengineering', 'Biomedical Engineering', 'Biotechnology', 'Molecular Medicine']"
+Chemical Reviews ,{'journal'},50519,Q1,17.828,journalsearch.php?q=23340&tip=sid&clean=0,['Chemistry (miscellaneous']
+Econometrica ,{'journal'},1946,Q1,17.701,journalsearch.php?q=19482&tip=sid&clean=0,['Economics and Econometrics']
+Review of Financial Studies ,{'journal'},4495,Q1,17.654,journalsearch.php?q=16161&tip=sid&clean=0,"['Accounting', 'Economics and Econometrics', 'Finance']"
+Cancer Cell ,{'journal'},12604,Q1,17.507,journalsearch.php?q=29093&tip=sid&clean=0,"['Cancer Research', 'Cell Biology', 'Oncology']"
+Nature Energy ,{'journal'},16808,Q1,17.497,journalsearch.php?q=21100812579&tip=sid&clean=0,"['Electronic, Optical and Magnetic Materials', 'Energy Engineering and Power Technology', 'Fuel Technology', 'Renewable Energy, Sustainability and the Environment']"
+Nature Genetics ,{'journal'},13100,Q1,17.3,journalsearch.php?q=18990&tip=sid&clean=0,['Genetics']
+Reviews of Modern Physics ,{'journal'},4303,Q1,16.061,journalsearch.php?q=29719&tip=sid&clean=0,['Physics and Astronomy (miscellaneous']
+Nature Reviews Immunology ,{'journal'},13815,Q1,16.009,journalsearch.php?q=21318&tip=sid&clean=0,"['Immunology', 'Immunology and Allergy', 'Medicine (miscellaneous']"
+IEEE Communications Surveys and Tutorials ,{'journal'},11266,Q1,15.966,journalsearch.php?q=17900156715&tip=sid&clean=0,['Electrical and Electronic Engineering']
+World Psychiatry ,{'journal'},4041,Q1,15.827,journalsearch.php?q=6200180159&tip=sid&clean=0,['Psychiatry and Mental Health']
+Annual Review of Immunology ,{'journal'},2696,Q1,15.62,journalsearch.php?q=20651&tip=sid&clean=0,"['Immunology', 'Immunology and Allergy']"
+National Vital Statistics Reports ,{'journal'},896,Q1,14.943,journalsearch.php?q=58530&tip=sid&clean=0,['Life-span and Life-course Studies']
+Nature Methods ,{'journal'},15900,Q1,14.796,journalsearch.php?q=21100778827&tip=sid&clean=0,"['Biochemistry', 'Biotechnology', 'Cell Biology', 'Molecular Biology']"
+Advances in Physics ,{'journal'},374,Q1,14.78,journalsearch.php?q=26978&tip=sid&clean=0,['Condensed Matter Physics']
+Nano Research Energy ,{'journal'},2160,Q1,14.707,journalsearch.php?q=21101142543&tip=sid&clean=0,"['Chemistry (miscellaneous)', 'Energy (miscellaneous)', 'Materials Science (miscellaneous']"
+MMWR Recommendations and Reports ,{'journal'},5353,Q1,14.618,journalsearch.php?q=19434&tip=sid&clean=0,"['Epidemiology', 'Health Information Management', 'Health (social science)', 'Health, Toxicology and Mutagenesis', 'Medicine (miscellaneous']"
+Academy of Management Annals ,{'journal'},1938,Q1,14.605,journalsearch.php?q=19900191906&tip=sid&clean=0,"['Business and International Management', 'Organizational Behavior and Human Resource Management']"
+Nature Nanotechnology ,{'journal'},17562,Q1,14.577,journalsearch.php?q=5200152704&tip=sid&clean=0,"['Atomic and Molecular Physics, and Optics', 'Bioengineering', 'Biomedical Engineering', 'Condensed Matter Physics', 'Electrical and Electronic Engineering', 'Materials Science (miscellaneous)', 'Nanoscience and Nanotechnology']"
+Nature Reviews Genetics ,{'journal'},6211,Q1,14.293,journalsearch.php?q=18991&tip=sid&clean=0,"['Genetics', 'Genetics (clinical)', 'Molecular Biology']"
+Nature Materials ,{'journal'},20730,Q1,14.231,journalsearch.php?q=17854&tip=sid&clean=0,"['Chemistry (miscellaneous)', 'Condensed Matter Physics', 'Materials Science (miscellaneous)', 'Mechanical Engineering', 'Mechanics of Materials']"
+Administrative Science Quarterly ,{'journal'},1260,Q1,14.175,journalsearch.php?q=16036&tip=sid&clean=0,"['Arts and Humanities (miscellaneous)', 'Public Administration', 'Sociology and Political Science']"
+Annals of Oncology ,{'journal'},12698,Q1,13.942,journalsearch.php?q=28711&tip=sid&clean=0,"['Hematology', 'Medicine (miscellaneous)', 'Oncology']"
+Annual Review of Astronomy and Astrophysics ,{'book series'},1271,Q1,13.67,journalsearch.php?q=26651&tip=sid&clean=0,"['Astronomy and Astrophysics', 'Space and Planetary Science']"
+Journal of Financial Economics ,{'journal'},6315,Q1,13.655,journalsearch.php?q=24379&tip=sid&clean=0,"['Accounting', 'Economics and Econometrics', 'Finance', 'Strategy and Management']"
+Review of Economic Studies ,{'journal'},1699,Q1,13.609,journalsearch.php?q=24202&tip=sid&clean=0,['Economics and Econometrics']
+Immunity ,{'journal'},13409,Q1,13.578,journalsearch.php?q=20798&tip=sid&clean=0,"['Immunology', 'Immunology and Allergy', 'Infectious Diseases']"
+Nature Catalysis ,{'journal'},12109,Q1,13.315,journalsearch.php?q=21100862548&tip=sid&clean=0,"['Biochemistry', 'Bioengineering', 'Catalysis', 'Process Chemistry and Technology']"
+Morbidity and Mortality Weekly Report ,{'journal'},14374,Q1,13.08,journalsearch.php?q=110092&tip=sid&clean=0,"['Epidemiology', 'Health Information Management', 'Health (social science)', 'Health, Toxicology and Mutagenesis', 'Medicine (miscellaneous']"
+Chemical Society Reviews ,{'journal'},44032,Q1,12.511,journalsearch.php?q=23350&tip=sid&clean=0,['Chemistry (miscellaneous']
+American Economic Journal: Macroeconomics ,{'journal'},862,Q1,12.324,journalsearch.php?q=19900191885&tip=sid&clean=0,"['Economics, Econometrics and Finance (miscellaneous']"
+Nature Reviews Methods Primers ,{'journal'},4174,Q1,12.294,journalsearch.php?q=21101089342&tip=sid&clean=0,"['Biochemistry, Genetics and Molecular Biology (miscellaneous)', 'Medicine (miscellaneous']"
+eScience ,{'journal'},3323,Q1,12.288,journalsearch.php?q=21101141505&tip=sid&clean=0,"['Electrochemistry', 'Materials Chemistry', 'Renewable Energy, Sustainability and the Environment']"

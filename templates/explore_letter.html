@@ -1,0 +1,25 @@
+{% extends 'second_base.html' %}
+{% block head %}
+{% endblock %}
+{% block body %}
+<div class="flex flex-col justify-center items-center">
+<h1 class="text-2xl font-bold pb-12">Words in titles that start with: {{letter}}</h1>
+<table class="table-auto border-black border-2">
+    <thead>
+        <th class="">Words</th>
+    </thead>
+    <tbody>
+        {% for word in words_starting_with_letter %}
+        <tr class="border-black border-2">
+            <td class=""><a href="/explore/titles_version_2/{{ word }}" class="transition-transform duration-300 hover:scale-150">{{ word }}</a></td>
+        </tr>
+        {% endfor %}
+
+
+</table>
+</div>
+
+
+
+
+{% endblock %}

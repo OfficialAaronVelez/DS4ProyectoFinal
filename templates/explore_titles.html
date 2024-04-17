@@ -1,0 +1,29 @@
+{% extends 'second_base.html' %}
+{% block head %}
+{% endblock %}
+{% block body %}
+<div class="flex flex-col justify-center items-center">
+<h1 class="text-2xl font-bold pb-12">Journals that have the word: {{word}} in the title</h1>
+<table class="table-auto border-black border-2 w-1/2">
+    <thead class="border-black border-2 ">
+        <th class="border-black border-2 ">Titles</th>
+        <th class="border-black border-2">Catolago</th>
+        <th class="border-black border-2 ">SJR</th>
+    </thead>
+    <tbody>
+        {% for title, catalog,sjr in data_with_word %}
+        <tr class="border-black border-2">
+            <td class=""><a href="/explore/journals/{{ title }}" class="transition-transform duration-300 hover:scale-150">{{ title }}</a></td>
+            <td class="border-black border-2">{{ catalog }}</td>
+            <td class="border-black border-2">{{ sjr }}</td>
+        </tr>
+        {% endfor %}
+
+
+</table>
+</div>
+
+
+
+
+{% endblock %}

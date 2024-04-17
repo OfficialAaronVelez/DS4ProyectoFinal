@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% endblock %}
+    <link rel="stylesheet" href="{{url_for('static',filename='dist/css/output.css')}}">
+    
+</head>
+<body>
+    <nav class="text-black font-bold p-4">
+        <div class=" ml-10 mr-10 flex justify-between items-center">
+            <a href="/explorar" class="text-white
+            text-2xl font-bold">ReviSearch</a>
+            
+            <div class="flex items-center space-x-8">
+                <a href="/" class="">Home</a>
+                <a href="/explore" class="">Explore</a>
+                <a href="/creditos" class="">Creditos</a>
+                
+            </div>
+        </div>
+    </nav>
+    {% block body %}
+    {% endblock %}
+    
+</body>
+</html>
