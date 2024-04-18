@@ -3,21 +3,19 @@
 {% endblock %}
 {% block body %}
 <div class="flex flex-col justify-center items-center">
-<h1 class="text-2xl font-bold pb-12">Words in titles that start with: {{letter}}</h1>
-<table class="table-auto border-black border-2">
-    <thead>
-        <th class="">Words</th>
-    </thead>
-    <tbody>
+    <h1 class="text-2xl font-bold pb-12">Words in titles that start with: {{letter}}</h1>
+    <div class="flex flex-col items-center justify-center">
+        
         {% for word in words_starting_with_letter %}
-        <tr class="border-black border-2">
-            <td class=""><a href="/explore/titles_version_2/{{ word }}" class="transition-transform duration-300 hover:scale-150">{{ word }}</a></td>
-        </tr>
+        <div class="overflow-hidden h-16 flex flex-row items-center justify-center  rounded-2xl font-bold mb-6">
+            <div class="flex w-96 text-black bg-[#E1B73D] h-16 items-center justify-center border-r -ml-px"><a href="/explore/titles_version_2/{{ word }}" class="transition-transform duration-300 hover:scale-150">{{ word }}</a></div>
+        </div>
+        {% else %}
+        <div class="text-xl font-bold">No words found that start with: {{letter}}</div>
         {% endfor %}
+    
+    </div>
 
-
-</table>
-</div>
 
 
 

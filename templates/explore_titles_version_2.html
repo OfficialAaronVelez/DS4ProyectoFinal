@@ -6,14 +6,14 @@
 <h1 class="text-2xl font-bold pb-12">Journals that have the word: {{word}} in the title</h1>
 <div class="flex flex-col items-center justify-center">
     <div class="overflow-hidden h-16 flex flex-row items-center justify-center bg-slate-200 rounded-2xl font-bold mb-6">
-        <div class="flex w-96 text-white bg-slate-500 h-16 items-center justify-center border-r border-gray-700 -ml-px"><h1>Title</h1></div>
+        <div class="flex w-96 text-white bg-[#24398A] h-16 items-center justify-center border-r border-gray-700 -ml-px"><h1>Title</h1></div>
         <div class="flex w-64 text-black bg-slate-200 h-16 items-center justify-center border-r border-gray-300"><h1>Catalog</h1></div>
         <div class="flex w-64 text-black bg-slate-200 h-16 items-center justify-center -mr-px"><h1>SJR</h1></div>
     </div>
   
     {% for title, catalog,sjr, color in data_with_word %}
     <div class="overflow-hidden h-16 flex flex-row items-center justify-center  rounded-2xl font-bold mb-6">
-        <div class="flex w-96 text-white {{ color }} h-16 items-center justify-center border-r -ml-px"><a href="/explore/journals/{{ title }}" class="transition-transform duration-300 hover:scale-110">{{ title }}</a></div>
+        <div class="flex w-96 text-white {{color}} h-16 items-center justify-center border-r -ml-px"><a href="/explore/journals/{{ title }}" class="transition-transform duration-300 hover:scale-110">{{ title }}</a></div>
         <div class="flex w-64 text-black bg-slate-200 h-16 items-center justify-center border-r border-gray-300">{{ catalog }}</div>
         <div class="flex w-64 text-black bg-slate-200 h-16 items-center justify-center -mr-px">{{ sjr }}</div>
     </div>

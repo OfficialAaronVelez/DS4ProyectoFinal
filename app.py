@@ -33,7 +33,7 @@ def explore_titles(word):
 #TEST DESIGN CURRENTLY ACTIVE
 @app.route('/explore/titles_version_2/<word>')
 def explore_titles_version_2(word):
-    colors = ["bg-red-500", "bg-yellow-500", "bg-green-500", "bg-blue-500", "bg-indigo-500", "bg-purple-500", "bg-pink-500"]
+    colors = ["bg-red-500", "bg-yellow-500", "bg-green-500", "bg-blue-500"]
     data = get_journal_previews()
     data_with_word = [(entry[0], entry[1], entry[2], random.choice(colors)) for entry in data if word in entry[0]]
     return render_template('explore_titles_version_2.html', word=word, data_with_word=data_with_word)
