@@ -59,6 +59,9 @@ def search_results(query):
     results = [entry for entry in data if all(word in entry[0].lower() for word in query_words)]
     return render_template('search_results.html', query=query, results=results)
 
+@app.route('/creditos')
+def credits():
+    return render_template('credits.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
